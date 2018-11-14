@@ -960,10 +960,10 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@1.14.3:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.14.3.tgz#b8e73fee303ab97aa4ca84b8251862257e610095"
-  integrity sha512-yMpd6lYHSXX9JQ0nZzzHNa+7OuAehP7eUMOom18Z6WaITyyE+hXyKYSzsFspFotMszbwXQxfytSSJVPjEUzglg==
+sass@1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.15.0.tgz#80cd374ad9db9f4a24942cf927552d31d8b6f376"
+  integrity sha512-xY+n0MB/KAjwwNJYXBD5yJOG2mS2Ac8AXB7Ci2KbWxivbiDVMxhy3vbvXAllVABAHjBqZYUPq1qOJeqZ2XMVIQ==
   dependencies:
     chokidar "^2.0.0"
 
