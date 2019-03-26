@@ -26,9 +26,8 @@ def rules_sass_dependencies():
     _include_if_not_defined(
         http_archive,
         name = "build_bazel_rules_nodejs",
-        url = "https://github.com/bazelbuild/rules_nodejs/archive/0.16.4.zip",
-        strip_prefix = "rules_nodejs-0.16.4",
-        sha256 = "e8704168f9aef4dad828cb8fd39ce0e84c5e8cfa2ab5001b41f2e8b4b04c5147",
+        urls = ["https://github.com/bazelbuild/rules_nodejs/archive/e33393512d6db7d2aed8d90fb805917dfcb221ce.zip"],
+        strip_prefix = "rules_nodejs-e33393512d6db7d2aed8d90fb805917dfcb221ce"
     )
 
     # Dependencies from the NodeJS rules. We don't want to use the "package.bzl" dependency macro
